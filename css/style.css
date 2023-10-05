@@ -1,0 +1,646 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.inicio {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+
+.headerInicio {
+    height: 60vh;
+    background-image: url(../multimedis/header_Inicio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.headerServicios {
+    height: 60vh;
+    background-image: url(../multimedis/fondo-servicios.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.headerNosotros {
+    height: 60vh;
+    background-image: url(../multimedis/fondo-Nosotros.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.headerMetodo {
+    height: 60vh;
+    background-image: url(../multimedis/header-metodo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.headerAlumnos {
+    height: 60vh;
+    background-image: url(../multimedis/fondo-alumnos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nombreInst {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.bordeLogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 80%
+}
+
+
+
+/*MAIN*/
+
+
+/*PAGE INICIO*/
+
+.textoNosotrosIndex{
+    font-size: 1.2rem;
+    padding:100px;
+    text-align: center;
+}
+.altura{
+    height: 100%;
+}
+
+.alturaMain{
+    height: 100vh;
+    
+}
+.h4Index{
+    color: blueviolet;
+}
+
+.ancla{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;    
+}
+
+.alturaCarrusel{
+    height: 30vh;
+}
+
+.tamañoImagenCards{
+    width: 350px;
+    height: 250px}
+
+.bordeImagenCards{
+        border-radius: 10%;
+    }
+
+
+.boxForm{
+    width: 100%;
+    background-image: url(../multimedis/fondo-section_1_index.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+/*.bgFormulario{
+    background-image: url(../multimedis/800\ pixeles.jpg);
+    background-size: cover;
+    background-position: center;
+}*/
+
+.textoFormulario{
+    color: rgb(37, 44, 51);
+    font-size: 1.2rem;
+}
+.tituloForm{
+    font-size: 1.5rem;
+    font-family:cursive;
+    text-align: center;
+    font-weight: 5px;
+}
+
+
+.tamañoCardServicios{
+    height: 500px;
+    width: 950px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    height: 50vh;
+    background-color: black;
+
+    
+    /*display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%*/
+}
+
+.footer_redes_sociales {
+   /* margin: 80px;*/
+   
+   text-align: center;
+
+
+}
+
+.footer h2 {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+
+.footer_redes_sociales img {
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+
+}
+
+.footer_redes_sociales p {
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.footerLista{
+    list-style: none;
+}
+
+.footerAncla{
+    text-decoration: none;
+    
+}
+
+
+.footer-logo-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+
+
+/* queries footer */
+
+@media screen and (min-width: 768px) {
+
+    .logoFooter{
+        display: none;
+    }
+}
+
+
+/*.colorTextFooter{
+    color: antiquewhite;
+}*/
+
+
+
+
+
+/*.borderForm p{
+    border: 2px solid black;
+}*/ 
+
+
+/*SOBRE NOSOTROS BOOTSTRAP*/
+
+.imagenNosotros{
+    
+    width: 300px;
+    height: 300px;
+
+}
+
+
+/*.sobreNosotros{
+    width: 100%;
+    height: 80vh;
+    background-color: darkcyan;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+  }
+  
+  .main_section2_h1 {
+  
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #F6F6F6;
+    left: 35%;
+    margin-top: 0px;
+  
+  }
+  
+  
+  .main_section2 p {
+  
+    position: absolute;
+    padding: 50px 150px;
+    left: 50%;
+  
+  }
+  
+  
+  .img_container {
+    display: block;
+  }
+  
+  .main_section2_img {
+    width: 300px;
+    height: 300px;
+    margin: 50px 150px 100px 100px;
+    object-fit: cover;
+  }
+  
+
+
+
+
+  
+  
+  /*SECCION 2 - SOBRE NOSOTROS*/
+  
+  /*.main_section2 {
+    width: 100%;
+    height: 80vh;
+    background-color: darkcyan;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+  }
+  
+  .main_section2_h1 {
+  
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #F6F6F6;
+    left: 35%;
+    margin-top: 0px;
+  
+  }
+  
+  
+  .main_section2 p {
+  
+    position: absolute;
+    padding: 50px 150px;
+    left: 50%;
+  
+  }
+  
+  
+  .img_container {
+    display: block;
+  }
+  
+  .main_section2_img {
+    width: 300px;
+    height: 300px;
+    margin: 50px 150px 100px 100px;
+    object-fit: cover;
+  }
+  
+
+
+/* SECTION_1 */
+
+/*PAGE SERVICIOS*/
+
+.section1_servicios {
+    height: auto;
+    display: grid;
+    grid-template-rows: 1.5fr repeat(3 2fr) 3fr;
+    row-gap: 5px;
+    grid-template-columns: repeat (2 1fr);
+    column-gap: 5px;
+    grid-template-areas:
+        "titulo titulo"
+        "tareas-diarias clase-por-hora"
+        "prepa-examenes clases-virtuales";
+    /*background-color: blanchedalmond;*/
+}
+
+.titulo {
+    grid-area: titulo;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.tareas-diarias {
+    grid-area: tareas-diarias;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.clase-por-hora {
+    grid-area: clase-por-hora;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.prepa-examenes {
+    grid-area: prepa-examenes;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.clases-virtuales {
+    grid-area: clases-virtuales;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.section1_servicios img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+    margin-top: 30px;
+
+}
+
+h2:hover {
+    border-radius:100% ;
+
+}
+
+/*img:hover {
+    border-radius: 100%;
+}*/
+
+
+
+
+.servicios-p {
+    font-size: 1rem;
+    font-family: cursive;
+    text-align: center;
+    padding: 30px 80px;
+}
+
+/* SECTION_2 */
+
+.section2_servicios_ingresos {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "ingresosTitulo"
+        "ingresosImagenes"
+        "ingresosLinks";
+    /*background-color: rgb(236, 221, 152);*/
+
+    /*display: flex;
+    height: 60vh;
+    background-color: aqua;*/
+
+
+}
+
+
+/*.ingresos {
+    grid-area: ingresos;
+
+}
+
+
+
+/*.ingresos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+
+}
+
+.forma-img {
+    width: 350px;
+    height: 250px;
+    border-radius: 30%;
+    margin: 30px;
+}
+
+.servicios-p {
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    padding: 30px 80px;
+}
+
+/*.grilla-ingresos {
+    display: flex;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-areas:
+        "ingresosTitulo"
+        "ingresosImagenes"
+        "ingresosLinks";
+    background-color: rgb(236, 221, 152);
+
+}*/
+
+.ingresos-titulo {
+    grid-area: ingresosTitulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.ingresos-titulo h2 {
+    font-family: cursive;
+    font-size: 2rem;
+    color: black;
+}
+
+.ingresos-imagenes {
+    grid-area: ingresosImagenes;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.ingresos-imagenes img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.ingresos-links {
+    grid-area: ingresosLinks;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.ingresos-links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+
+
+/*.footer-logo-empresa{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/*.footer-logo-empresa {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}*/
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES
+
+@media (max-width: 840px) {
+
+
+
+    #servicios {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1.5fr repeat(5, 2fr) 3fr;
+        row-gap: 10px;
+        grid-template-columns: repeat (2 1fr);
+        column-gap: 10px;
+        grid-template-areas:
+            "titulo titulo"
+            "tareas-diarias clase-por-hora"
+            "prepa-examenes clases-virtuales"
+            "ingresos ingresos";
+        background-color: blanchedalmond;
+    }
+
+    .titulo {
+        font-size: 15px;
+        
+    }
+
+    
+
+    
+
+    .ingresos {
+        grid-area: ingresos;
+
+    }*/
+
+
+
+/*#grilla-ingresos {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
+        grid-template-areas:
+            "ingresosTitulo"
+            "ingresosImagenes"
+            "ingresosLinks";
+        background-color: rgb(236, 221, 152);
+
+    }
+
+    .ingresos-titulo {
+        grid-area: ingresosTitulo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: cursive;
+
+    }
+
+    .ingresos-imagenes {
+        grid-area: ingresosImagenes;
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .ingresos-links {
+        grid-area: ingresosLinks;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        font-size: 20px;
+        font-family: cursive;
+
+    }
+
+}*/
