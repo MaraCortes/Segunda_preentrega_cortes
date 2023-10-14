@@ -11,49 +11,42 @@
   font-size: 1.5rem;
   color: aliceblue;
 }
-
-.headerInicio {
+.inicio .headerInicio {
   height: 60vh;
   background-image: url(../multimedis/header_Inicio.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.headerServicios {
+.inicio .headerServicios {
   height: 60vh;
   background-image: url(../multimedis/fondo-servicios.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.headerNosotros {
+.inicio .headerNosotros {
   height: 60vh;
   background-image: url(../multimedis/fondo-Nosotros.jpeg);
   background-size: cover;
   background-position: center;
 }
-
-.headerMetodo {
+.inicio .headerMetodo {
   height: 60vh;
   background-image: url(../multimedis/header-metodo.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.headerAlumnos {
+.inicio .headerAlumnos {
   height: 60vh;
   background-image: url(../multimedis/fondo-alumnos.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.nombreInst {
+.inicio .nombreInst {
   font-family: cursive;
   font-size: 1.5rem;
   color: aliceblue;
 }
-
-.bordeLogo {
+.inicio .bordeLogo {
   width: 80px;
   height: 80px;
   border-radius: 80%;
@@ -85,17 +78,15 @@ main {
   padding: 0;
   margin: 0;
 }
-
-.carousel-item {
+.carousel .carousel-item {
   height: 40vh;
   width: 100%;
 }
-
-.imagenBanner {
+.carousel .carousel-item .imagenBanner {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .imagenesIngresoColegios {
@@ -103,7 +94,7 @@ main {
   height: 300px;
   border-radius: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .alturaContenedorForm {
@@ -126,7 +117,7 @@ main {
   height: 300px;
   border-radius: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .boxForm {
@@ -153,7 +144,7 @@ main {
   height: 400px;
   border-radius: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .mainAlumno {
@@ -170,40 +161,39 @@ main {
   height: auto;
   background-color: black;
 }
-
-.footer_redes_sociales {
+.footer .bordeLogoFooter {
+  width: 80px;
+  height: 80px;
+  border-radius: 80%;
+}
+.footer .footerLista {
+  list-style: none;
+}
+.footer .footerLista .footerAncla {
+  text-decoration: none;
+}
+.footer .footer_redes_sociales {
   text-align: center;
 }
-
-.footer h2 {
-  font-size: 1.2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  color: aliceblue;
-}
-
-.footer_redes_sociales img {
-  width: 45px;
-  height: 45px;
-  border-radius: 20%;
-}
-
-.footer_redes_sociales p {
+.footer .footer_redes_sociales .footer_redes_sociales_p {
   font-size: 1.2rem;
   font-family: cursive;
   color: aliceblue;
   text-align: center;
 }
-
-.footerLista {
-  list-style: none;
+.footer .footer_redes_sociales .footer_h2 {
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+.footer .footer_redes_sociales .footer_img {
+  width: 45px;
+  height: 45px;
+  border-radius: 20%;
 }
 
-.footerAncla {
-  text-decoration: none;
-}
-
-.footer-logo-empresa {
+/*.footer-logo-empresa {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,8 +202,7 @@ main {
   font-size: 1.2rem;
   font-family: cursive;
   color: aliceblue;
-}
-
+}*/
 /* queries footer */
 @media screen and (max-width: 1200px) {
   .queriesLogoFooter {
@@ -240,30 +229,4 @@ h2:hover {
   .queriesServicios {
     flex-direction: column-reverse;
   }
-}/*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    
-
-    
+} /*# sourceMappingURL=style.css.map */
