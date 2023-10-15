@@ -223,28 +223,6 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*.footer-logo-empresa {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  font-size: 1.2rem;
-  font-family: cursive;
-  color: aliceblue;
-}*/
-
 /* queries footer */
 @media screen and (max-width: 1200px) {
   .queriesLogoFooter {
@@ -263,9 +241,9 @@ main {
     gap: 20px;
   }
 }
-h2:hover {
+/*h2:hover {
   border-radius: 100%;
-}
+}*/
 
 @media screen and (max-width: 1200px) {
   .queriesServicios {
