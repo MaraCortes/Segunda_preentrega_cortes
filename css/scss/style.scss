@@ -172,11 +172,9 @@ main {
   gap: 10px;
 }
 
-.boton{
-    width: 250px;
-    height: 50px;
+.bordeBtnInscripcion{
+  border-radius:70%;
 }
-
 
 
 
@@ -203,6 +201,13 @@ main {
   .footer_redes_sociales {
     text-align: center;
 
+    .footer_h2 {
+      font-size: 1.2rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      color: aliceblue;
+    }
+
     .footer_redes_sociales_p {
         font-size: 1.2rem;
         font-family: cursive;
@@ -210,12 +215,7 @@ main {
         text-align: center;
       }
 
-    .footer_h2 {
-        font-size: 1.2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        color: aliceblue;
-      }
+    
 
     .footer_img {
         width: 45px;
@@ -230,6 +230,14 @@ main {
 
 /* queries footer */
 @media screen and (max-width: 1200px) {
+
+  .footer_redes_sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+    
+  }
   .queriesLogoFooter {
     display: none;
   }
@@ -239,19 +247,32 @@ main {
   .queriesMapaFooter {
     display: none;
   }
-  .footer_redes_sociales {
+  
+
+  .footer_h2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aliceblue;*/
   }
 }
-/*h2:hover {
-  border-radius: 100%;
-}*/
 
 @media screen and (max-width: 1200px) {
   .queriesServicios {
     flex-direction: column-reverse;
   }
-}/*# sourceMappingURL=style.css.map */
+  
+}
+
+
+/*@media screen and (max-width: 1200px) {
+  .queriesBtnFormFooter{
+    display: none;
+  }
+  
+}*/
+
+
+/*# sourceMappingURL=style.css.map */
