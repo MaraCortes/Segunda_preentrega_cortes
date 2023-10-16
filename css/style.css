@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: #f3e8e8;
+}
+
 .inicio {
   font-family: curive;
   font-size: 1.5rem;
@@ -107,13 +111,7 @@
     display: none;
   }
 }
-/*@charset "UTF-8";*/
-/*MAIN*/
-main {
-  background-color: #f3f3f3;
-}
-
-.textoIndex {
+.textochico {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -121,6 +119,8 @@ main {
   -webkit-text-size-adjust: 100%;
 }
 
+/*@charset "UTF-8";*/
+/*MAIN*/
 .altura {
   height: 100%;
 }
@@ -176,11 +176,10 @@ main {
   height: 100vh;
 }
 
-.h2servicios {
+/*.h2main {
   font-weight: 600;
   font-size: 30px;
-}
-
+}*/
 .ancla {
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
