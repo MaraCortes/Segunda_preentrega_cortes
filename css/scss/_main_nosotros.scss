@@ -1,0 +1,17 @@
+.card{
+  
+    /*transition: 250ms;*/
+      height: 90%;
+      width: 300px;    
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 50px;
+  
+      .imgCardProfes{
+        border-radius: 30px;
+          height: 250px;
+          object-fit: cover;    
+          margin-bottom: 20px;
+      }
+  }
+  
