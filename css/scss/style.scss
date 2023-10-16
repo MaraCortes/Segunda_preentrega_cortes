@@ -6,12 +6,6 @@
 
 /*@charset "UTF-8";*/
 
-
-/* HEADER */
-
-
-
-
 /*MAIN*/
 
 
@@ -147,31 +141,8 @@ main {
 }
 
 
-
-/* queries footer */
-/*@media screen and (max-width: 1200px) {
-  .footer_redes_sociales {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;  
-    
-     .footer_h2 {
-      display: none;
-    }
-  }  
-
-  .queriesLogoFooter {
-    display: none;
-  }
-  .footerLista {
-    display: none;
-  }
-  .queriesMapaFooter {
-    display: none;
-  }
   
-}*/
+
 
 @media screen and (max-width: 1200px) {
   .queriesServicios {
