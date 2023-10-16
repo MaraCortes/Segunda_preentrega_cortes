@@ -1,0 +1,70 @@
+.footer {
+    height: auto;
+    background-color: black;
+  
+    .bordeLogoFooter{
+      width: 80px;
+      height: 80px;
+      border-radius: 80%;
+    }
+  
+    .footerLista {
+      list-style: none;
+  
+      .footerAncla {
+          text-decoration: none;
+        }
+    }
+  
+    .footer_redes_sociales {
+      text-align: center;
+  
+      .footer_h2 {
+        font-size: 1.2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: aliceblue;
+      }
+  
+      .footer_redes_sociales_p {
+          font-size: 1.2rem;
+          font-family: cursive;
+          color: aliceblue;
+          text-align: center;
+        }
+  
+      
+  
+      .footer_img {
+          width: 45px;
+          height: 45px;
+          border-radius: 20%;        
+        }
+        
+    }
+  
+  }
+
+  @media screen and (max-width: 1200px) {
+    .footer_redes_sociales {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;  
+      
+       .footer_h2 {
+        display: none;
+      }
+    }  
+  
+    .queriesLogoFooter {
+      display: none;
+    }
+    .footerLista {
+      display: none;
+    }
+    .queriesMapaFooter {
+      display: none;
+    }
+    
+  }

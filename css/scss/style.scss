@@ -1,66 +1,15 @@
-@charset "UTF-8";
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
+@import "variables.scss";
+@import "resert.scss";
+@import "header.scss";
+@import "footer.scss";
+
+/*@charset "UTF-8";*/
+
 
 /* HEADER */
 
-.inicio {
-  font-family: curive;
-  font-size: 1.5rem;
-  color: aliceblue;
-  
 
-  .headerInicio {
-    height: 60vh;
-    background-image: url(../multimedis/header_Inicio.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .headerServicios {
-    height: 60vh;
-    background-image: url(../multimedis/fondo-servicios.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .headerNosotros {
-    height: 60vh;
-    background-image: url(../multimedis/fondo-Nosotros.jpeg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .headerMetodo {
-    height: 60vh;
-    background-image: url(../multimedis/header-metodo.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .headerAlumnos {
-    height: 60vh;
-    background-image: url(../multimedis/fondo-alumnos.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .nombreInst {
-    font-family: cursive;
-    font-size: 1.5rem;
-    color: aliceblue;
-  }
-
-  .bordeLogo {
-    width: 80px;
-    height: 80px;
-    border-radius: 80%;
-  }
-
-}
 
 
 /*MAIN*/
@@ -68,13 +17,14 @@
 
 main {
   background-color: #f3f3f3;
+  
 }
 
-.textoNosotrosIndex {
+.textoIndex {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: black;
+  color: rgb(12, 1, 1);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -145,7 +95,7 @@ main {
 .ancla {
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
-  color: antiquewhite;
+  color: $color-claro;
 }
 
 .tamañoImagenCards {
@@ -163,10 +113,10 @@ main {
   background-position: center;
 }
 
-.textoFormulario {
+/*.textoFormulario {
   color: rgb(37, 44, 51);
   font-size: 1.2rem;
-}
+}*/
 
 .tituloForm {
   font-size: 1.5rem;
@@ -198,66 +148,19 @@ main {
 
 
 
-/* FOOTER */
-
-.footer {
-  height: auto;
-  background-color: black;
-
-  .bordeLogoFooter{
-    width: 80px;
-    height: 80px;
-    border-radius: 80%;
-  }
-
-  .footerLista {
-    list-style: none;
-
-    .footerAncla {
-        text-decoration: none;
-      }
-  }
-
-  .footer_redes_sociales {
-    text-align: center;
-
-    .footer_h2 {
-      font-size: 1.2rem;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: center;
-      color: aliceblue;
-    }
-
-    .footer_redes_sociales_p {
-        font-size: 1.2rem;
-        font-family: cursive;
-        color: aliceblue;
-        text-align: center;
-      }
-
-    
-
-    .footer_img {
-        width: 45px;
-        height: 45px;
-        border-radius: 20%;        
-      }
-      
-  }
-
-}
-
-
 /* queries footer */
-@media screen and (max-width: 1200px) {
-
+/*@media screen and (max-width: 1200px) {
   .footer_redes_sociales {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;    
+    gap: 20px;  
     
-  }
+     .footer_h2 {
+      display: none;
+    }
+  }  
+
   .queriesLogoFooter {
     display: none;
   }
@@ -268,16 +171,7 @@ main {
     display: none;
   }
   
-
-  .footer_h2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: aliceblue;
-  }
-}
+}*/
 
 @media screen and (max-width: 1200px) {
   .queriesServicios {
