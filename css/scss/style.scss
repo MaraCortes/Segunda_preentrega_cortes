@@ -8,7 +8,7 @@
 @import "footer.scss";
 @import "utilitarias.scss";
 
-/*@charset "UTF-8";*/
+
 
 /*MAIN*/
 
@@ -92,11 +92,13 @@
 
 
 @media screen and (max-width: 1200px) {
-  .queriesServicios {
-    flex-direction: column-reverse;
+  .btnUno {
+    background-color: white;
   }
   
 }
+
+@media screen and (max-width: 1200px)
 
 
 /*@media screen and (max-width: 1200px) {
@@ -107,4 +109,4 @@
 }*/
 
 
-/*# sourceMappingURL=style.css.map */
+/*#sourceMappingURL= style.css.map*/

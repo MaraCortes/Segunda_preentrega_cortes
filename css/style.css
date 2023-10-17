@@ -1,18 +1,14 @@
-@charset "UTF-8";
+/*@charset "UTF-8";*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-main {
-  background-color: #f3e8e8;
-}
-
 .inicio {
   font-family: curive;
   font-size: 1.5rem;
-  color: rgb(244, 236, 227);
+  color: #faf6f0;
 }
 .inicio .headerInicio {
   height: 60vh;
@@ -47,7 +43,7 @@ main {
 .inicio .nombreInst {
   font-family: cursive;
   font-size: 1.5rem;
-  color: rgb(244, 236, 227);
+  color: #faf6f0;
 }
 .inicio .bordeLogo {
   width: 80px;
@@ -63,6 +59,12 @@ main {
 .carousel .carousel-item {
   height: 40vh;
   width: 100%;
+}
+.carousel .carousel-item .imagenBanner {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tamañoImagenNosotros {
@@ -162,7 +164,10 @@ main {
   height: 100%;
 }
 
-/*@charset "UTF-8";*/
+main {
+  background-color: #cfcdcd;
+}
+
 /*MAIN*/
 /*.imagenesIngresoColegios {
   width: 300px;
@@ -181,7 +186,7 @@ main {
 .ancla {
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
-  color: rgb(244, 236, 227);
+  color: #faf6f0;
 }
 
 .tamañoImagenCards {
@@ -238,4 +243,4 @@ main {
   }
 
 }*/
-/*# sourceMappingURL=style.css.map */
+/*#sourceMappingURL= style.css.map*//*# sourceMappingURL=style.css.map */
