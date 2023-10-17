@@ -30,19 +30,9 @@
   font-size: 30px;
 }*/
 
-.ancla {
-  font-size: 1.5rem;
-  font-family: "Times New Roman", Times, serif;
-  color: $color-claro;
-}
 
-.tamañoImagenCards {
-  width: 100%;
-  height: 300px;
-  border-radius: 20px;
-  object-fit: cover;
-     
-}
+
+
 
 .boxForm {
   width: 100%;
@@ -65,14 +55,7 @@
 
 
 
-/*.mainAlumno {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}*/
+
 
 .bordeBtnInscripcion{
   border-radius:70%;
@@ -80,12 +63,6 @@
 
 
 
-.linkColegios{
-
-  text-decoration: none;
-  color: black;
-
-}
 
 
   
@@ -98,7 +75,7 @@
   
 }
 
-@media screen and (max-width: 1200px)
+/*@media screen and (max-width: 1200px)*/
 
 
 /*@media screen and (max-width: 1200px) {
@@ -109,4 +86,3 @@
 }*/
 
 
-/*#sourceMappingURL= style.css.map*/
