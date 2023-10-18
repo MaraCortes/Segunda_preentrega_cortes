@@ -1,13 +1,14 @@
 
 @import "variables.scss";
+@import "utilitarias.scss";
 @import "resert.scss";
 @import "header.scss";
 @import "main_index.scss";
-@import "main_nosotros";
-@import "main_cursos";
-@import "main_servicios";
+@import "main_nosotros.scss";
+@import "main_cursos.scss";
+@import "main_servicios.scss";
 @import "footer.scss";
-@import "utilitarias.scss";
+
 
 
 
@@ -53,7 +54,6 @@
   text-align: center;
   font-weight: 5px;
 }
-
 
 
 
