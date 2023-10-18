@@ -4,6 +4,7 @@
 @import "header.scss";
 @import "main_index.scss";
 @import "main_nosotros";
+@import "main_cursos";
 @import "main_servicios";
 @import "footer.scss";
 @import "utilitarias.scss";
@@ -61,6 +62,30 @@
   border-radius:70%;
 }
 
+
+@media screen and (max-width: 1200px) {
+  .footer_redes_sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    
+     .footer_h2 {
+      display: none;
+    }
+  }  
+
+  .queriesLogoFooter {
+    display: none;
+  }
+  .footerLista {
+    display: none;
+  }
+  .queriesMapaFooter {
+    display: none;
+  }
+  
+}
 
 
 
