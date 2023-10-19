@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .textochico {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
   color: rgb(1, 1, 13);
@@ -12,7 +12,7 @@
 }
 
 main {
-  background-color: rgb(247, 237, 237);
+  color: azure;
 }
 
 .ancla {
@@ -62,15 +62,32 @@ main {
   background-size: cover;
   background-position: center;
 }
-.inicio .nombreInst {
+
+.nombreInst {
   font-family: cursive;
   font-size: 1.5rem;
   color: rgb(247, 237, 237);
 }
-.inicio .bordeLogo {
+
+.bordeLogo {
   width: 80px;
   height: 80px;
   border-radius: 80%;
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 1s;
+}
+@keyframes logo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .carousel {
@@ -98,7 +115,6 @@ main {
 }
 
 .card {
-  /*transition: 250ms;*/
   height: 90%;
   width: 300px;
   margin-bottom: 30px;
@@ -112,11 +128,38 @@ main {
   margin-bottom: 20px;
 }
 
+@keyframes flotar {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+.card:hover {
+  height: 90%;
+  width: 300px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  animation-name: flotar;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
 .imgCardUniversidades {
   margin: 5px;
   height: 200px;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 20px;
+}
+
+.imgCardUniversidades:hover {
+  margin: 5px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1200px) {
@@ -189,6 +232,14 @@ main {
   width: 45px;
   height: 45px;
   border-radius: 20%;
+}
+
+.footer_img:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 1200px) {

@@ -1,54 +1,75 @@
 .inicio {
-    font-family: curive;
+  font-family: curive;
+  font-size: 1.5rem;
+  color: $color-claro;
+
+
+  .headerInicio {
+    height: 60vh;
+    background-image: url(../multimedis/header_Inicio.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .headerServicios {
+    height: 60vh;
+    background-image: url(../multimedis/fondo-servicios.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .headerNosotros {
+    height: 60vh;
+    background-image: url(../multimedis/fondo-Nosotros.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .headerMetodo {
+    height: 60vh;
+    background-image: url(../multimedis/header-metodo.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .headerAlumnos {
+    height: 60vh;
+    background-image: url(../multimedis/fondo-alumnos.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  }
+
+
+
+  .nombreInst {
+    font-family: cursive;
     font-size: 1.5rem;
     color: $color-claro;
+
+  }
+
+  .bordeLogo {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-timing-function: ease;
     
-  
-    .headerInicio {
-      height: 60vh;
-      background-image: url(../multimedis/header_Inicio.jpg);
-      background-size: cover;
-      background-position: center;
+    animation-delay: 1s;
+
+    @keyframes logo {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(40px);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
     }
-  
-    .headerServicios {
-      height: 60vh;
-      background-image: url(../multimedis/fondo-servicios.jpg);
-      background-size: cover;
-      background-position: center;
-    }
-  
-    .headerNosotros {
-      height: 60vh;
-      background-image: url(../multimedis/fondo-Nosotros.jpeg);
-      background-size: cover;
-      background-position: center;
-    }
-  
-    .headerMetodo {
-      height: 60vh;
-      background-image: url(../multimedis/header-metodo.jpg);
-      background-size: cover;
-      background-position: center;
-    }
-  
-    .headerAlumnos {
-      height: 60vh;
-      background-image: url(../multimedis/fondo-alumnos.jpg);
-      background-size: cover;
-      background-position: center;
-    }
-  
-    .nombreInst {
-      font-family: cursive;
-      font-size: 1.5rem;
-      color: $color-claro;
-    }
-  
-    .bordeLogo {
-      width: 80px;
-      height: 80px;
-      border-radius: 80%;
-    }
-  
   }
