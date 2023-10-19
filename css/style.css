@@ -12,7 +12,7 @@
 }
 
 main {
-  color: azure;
+  color: rgb(231, 240, 240);
 }
 
 .ancla {
@@ -112,6 +112,20 @@ main {
   height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.h3carruselIndex {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 2rem;
+  color: rgb(247, 237, 237);
+}
+
+.textoCarrusel {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 2rem;
+  color: rgb(247, 237, 237);
 }
 
 .card {
