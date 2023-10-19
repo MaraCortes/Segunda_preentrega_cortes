@@ -38,8 +38,8 @@
     background-size: cover;
     background-position: center;
   }
+  
   }
-
 
 
   .nombreInst {
@@ -55,8 +55,7 @@
     border-radius: 80%;
     animation-name: logo;
     animation-duration: 2s;
-    animation-timing-function: ease;
-    
+    animation-timing-function: ease;    
     animation-delay: 1s;
 
     @keyframes logo {

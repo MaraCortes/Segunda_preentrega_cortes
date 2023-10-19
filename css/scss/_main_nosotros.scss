@@ -1,85 +1,84 @@
-.card{ 
-      height: 90%;
-      width: 300px;  
-      margin-bottom: 30px;
-      border-radius: 50px;
-      
-  
-      .imgCardProfes{
-        border-radius: 30px;
-          height: 250px;
-          object-fit: cover;    
-          margin-bottom: 20px;         
-        }
-  }  
+.card {
+  height: 90%;
+  width: 300px;
+  margin-bottom: 30px;
+  border-radius: 50px;
 
-  @keyframes flotar{
-    0%{
-      transform: translateY(0);
-    } 
-    100%{
-      transform: translateY(-30px);
+  &:hover {
+    height: 90%;
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    animation-name: flotar;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+
+  }
+
+
+
+  .imgCardProfes {
+    border-radius: 30px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+    @keyframes flotar {
+      0% {
+        transform: translateY(0);
+      }
+
+      100% {
+        transform: translateY(-30px);
+      }
     }
   }
-  
 
-  .card:hover{
-    height: 90%;
-      width: 300px;  
-      margin-bottom: 30px;
-      border-radius: 50px;
-      animation-name: flotar;
-          animation-duration: 1s;
-          animation-timing-function: ease;
+}
 
-  }
 
-  
 
-  .imgCardUniversidades{
+
+.imgCardUniversidades {
+  margin: 5px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+
+  &:hover {
     margin: 5px;
     height: 200px;
     width: 300px;
     border-radius: 20px;
-    
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+
   }
 
-  .imgCardUniversidades:hover{
-    margin: 5px;
-    height: 200px;
-    width: 300px;
-    border-radius: 20px;
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
-  
-  }
+}
 
-  @media screen and (max-width: 1200px){
-    .imgCardUniversidades{      
+
+
+
+
+  @media screen and (max-width: 1200px) {
+    .imgCardUniversidades {
       height: 150px;
-      width: 250px;         
+      width: 250px;
+      justify-content: center;
+
+    }
 
   }
-  
-   }
 
-   @media screen and (max-width: 520px){
-    .imgCardUniversidades{ 
-      object-fit: cover;    
-      
+  @media screen and (max-width: 520px) {
+    .imgCardUniversidades {
+      object-fit: cover;
       height: 200px;
-      width: 100%;         
+      width: 100%;
+
+    }
 
   }
-  
-   }
 
-   
-   
-
-   
-   
-
-
-  
   

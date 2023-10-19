@@ -1,0 +1,7 @@
+@mixin textos ($tamaño){    
+        font-family: cursive;
+        font-size: $tamaño;
+        font-weight: 2rem;
+        color: $color-claro;  
+    
+}

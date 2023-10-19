@@ -9,12 +9,24 @@
       .imagenBanner{
         width: 100%;
         height: 100%;  
-        object-fit: cover;
-   
-       }
+        object-fit: cover;    
       
+   
+       }      
     }
   }
+
+  .h3carruselIndex{
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 2rem;
+    color: $color-claro;
+    }
+
+    .textoCarrusel{
+      @include textos (1.5rem);
+      
+    }
 
   .tamañoImagenNosotros{
     border-radius: 20px;
@@ -23,19 +35,15 @@
      object-fit: cover;
   }
 
-  .h3carruselIndex{
-    font-family: cursive;
-    font-size: 2rem;
-    font-weight: 2rem;
-    color: $color-claro;
+  .estiloBotonInscipcio{
+    background-color: cadetblue;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
   }
 
-  .textoCarrusel{
-    font-family: cursive;
-    font-size: 2rem;
-    font-weight: 2rem;
-    color: $color-claro;
-  }
+  
+  
   
 
   
