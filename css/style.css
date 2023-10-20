@@ -3,7 +3,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
-  color: rgb(1, 1, 13);
+  color: rgb(10, 10, 15);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -12,14 +12,13 @@
 }
 
 main {
-  background-color: gainsboro;
-  color: rgb(1, 1, 13);
+  background-color: rgb(247, 247, 242);
 }
 
 .ancla {
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
-  color: rgb(242, 234, 234);
+  color: rgb(247, 247, 242);
 }
 
 * {
@@ -31,7 +30,7 @@ main {
 .inicio {
   font-family: curive;
   font-size: 1.5rem;
-  color: rgb(242, 234, 234);
+  color: rgb(247, 247, 242);
 }
 .inicio .headerInicio {
   height: 60vh;
@@ -67,7 +66,7 @@ main {
 .nombreInst {
   font-family: cursive;
   font-size: 1.5rem;
-  color: rgb(242, 234, 234);
+  color: rgb(247, 247, 242);
 }
 
 .bordeLogo {
@@ -111,14 +110,14 @@ main {
   font-family: cursive;
   font-size: 2rem;
   font-weight: 2rem;
-  color: rgb(242, 234, 234);
+  color: rgb(247, 247, 242);
 }
 
 .textoCarrusel {
   font-family: cursive;
   font-size: 1.5rem;
   font-weight: 2rem;
-  color: rgb(242, 234, 234);
+  color: rgb(247, 247, 242);
 }
 
 .tamañoImagenNosotros {
@@ -196,7 +195,7 @@ main {
 
 .linkColegios {
   text-decoration: none;
-  color: rgb(242, 234, 234);
+  color: rgb(247, 247, 242);
   font-family: cursive;
 }
 
@@ -279,7 +278,7 @@ main {
 .h3main {
   font-weight: 600;
   font-size: 30px;
-  color: rgb(1, 1, 13);
+  color: rgb(10, 10, 15);
 }
 
 .boxForm {
