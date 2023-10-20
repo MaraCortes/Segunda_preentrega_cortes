@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .textochico {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: rgb(1, 1, 13);
@@ -129,13 +129,6 @@ main {
      object-fit: cover;
 }
 
-.estiloBotonInscipcio {
-  background-color: cadetblue;
-  width: 600px;
-  height: 50px;
-  border-radius: 10px;
-}
-
 .card {
   height: 90%;
   width: 300px;
@@ -193,8 +186,8 @@ main {
   .imgCardUniversidades {
     -o-object-fit: cover;
        object-fit: cover;
-    height: 200px;
-    width: 100%;
+    height: 150px;
+    width: 70%;
   }
 }
 .alturaContenedorForm {
