@@ -40,7 +40,7 @@
     }
 
     .container-inscripcion{
-      background-color: $color-container-inscripcion;
+      background-color: map-get($colores , color-container-inscripcion );
       height: 25vh;
     }
 

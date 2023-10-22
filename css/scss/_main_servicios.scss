@@ -1,7 +1,7 @@
 .linkColegios{
 
     text-decoration: none;
-    color: $color-claro;
+    color: map-get($colores , $color-claro );
     font-family: cursive;
     
   
