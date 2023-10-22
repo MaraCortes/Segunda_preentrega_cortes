@@ -35,6 +35,23 @@
      object-fit: cover;
   }
 
+  .boton-inscripcion{    
+    border: rgba(75, 72, 80, 0.827) solid 3px;
+    }
+
+    .container-inscripcion{
+      background-color: $color-container-inscripcion;
+      height: 25vh;
+    }
+
+  .boton-inscripcion-a{
+    text-decoration: none;
+    color: $color-texto;
+    font-family: cursive;
+    font-size: 1.5rem;
+    
+  }
+
   
 
   

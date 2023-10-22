@@ -1,6 +1,9 @@
 .footer {
   height: auto;
   background-color: black;
+  
+  
+  
 
 
 
@@ -8,6 +11,7 @@
     width: 80px;
     height: 80px;
     border-radius: 80%;
+    
   }
 
   .footerLista {
@@ -15,6 +19,8 @@
 
     .footerAncla {
       text-decoration: none;
+      
+      
     }
 
   }
@@ -22,19 +28,22 @@
 
   .footer_redes_sociales {
     text-align: center;
-
+    
     .footer_h2 {
       font-size: 1.2rem;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
       text-align: center;
       color: aliceblue;
+      
     }
 
+    
     .footer_redes_sociales_p {
       font-size: 1.2rem;
       font-family: cursive;
       color: aliceblue;
       text-align: center;
+      
     }
 
 
@@ -55,6 +64,11 @@
     }
   }
 
+}
+
+.rowFooter{
+  font-family: $fuente-letrasFooter;
+  
 }
 
 
