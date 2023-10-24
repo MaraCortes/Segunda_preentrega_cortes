@@ -2,9 +2,9 @@
   height: 90%;
   width: 300px;
   margin-bottom: 30px;
-  border-radius: 50px;
+  border-radius: 10%;
 
-  &:hover {
+  /*&:hover {
     height: 90%;
     width: 300px;
     margin-bottom: 30px;
@@ -13,17 +13,23 @@
     animation-duration: 1s;
     animation-timing-function: ease;
 
-  }
+  }*/
+
+  .card-text{
+    padding:20px;
+    padding-top: 0;
+  } 
 
 
 
   .imgCardProfes {
-    border-radius: 30px;
+    border-radius: 15%;
     height: 250px;
     object-fit: cover;
-    margin-bottom: 20px;
+    padding: 15px;
+    
 
-    @keyframes flotar {
+    /*@keyframes flotar {
       0% {
         transform: translateY(0);
       }
@@ -31,7 +37,7 @@
       100% {
         transform: translateY(-30px);
       }
-    }
+    }*/
   }
 
 }

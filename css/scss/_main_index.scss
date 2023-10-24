@@ -1,62 +1,43 @@
 .carousel {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  .carousel-item {
+    height: 40vh;
     width: 100%;
-    padding: 0;
-    margin: 0;
-    .carousel-item {
-      height: 40vh;
-      width: 100%; 
-      
-      .imagenBanner{
-        width: 100%;
-        height: 100%;  
-        object-fit: cover;    
-      
-   
-       }      
+
+    .imagenBanner {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+
     }
   }
+}
 
-  .h3carruselIndex{
-    font-family: cursive;
-    font-size: 2rem;
-    font-weight: 2rem;
-    color: $color-claro;
-    }
+.h3carruselIndex {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 2rem;
+  color: $color-claro;
+}
 
-    .textoCarrusel{
-      @include textos (1.5rem);
-      
-    }
+.textoCarrusel {
+  @include textos (1.5rem);
 
-  .tamañoImagenNosotros{
-    border-radius: 20px;
-     width: 90%;
-     height: 350px;    
-     object-fit: cover;
-  }
+}
 
-  .boton-inscripcion{    
-    border: rgba(75, 72, 80, 0.827) solid 3px;
-    }
+.tamañoImagenNosotros {
+  border-radius: 20px;
+  width: 90%;
+  height: 350px;
+  object-fit: cover;
+}
 
-    .container-inscripcion{
-      background-color: map-get($colores , color-container-inscripcion );
-      height: 25vh;
-    }
 
-  .boton-inscripcion-a{
-    text-decoration: none;
-    color: $color-texto;
-    font-family: cursive;
-    font-size: 1.5rem;
-    
-  }
 
-  
 
-  
-  
-  
 
-  
-  
+

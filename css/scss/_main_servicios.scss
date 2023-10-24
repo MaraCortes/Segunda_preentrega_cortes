@@ -1,9 +1,7 @@
-.linkColegios{
-
+.linkColegios {
     text-decoration: none;
-    color: map-get($colores , $color-claro );
-    font-family: cursive;
-    
+    color: $color-claro;
+    font-family: cursive;   
   
   }
 
@@ -21,3 +19,4 @@
        }
     
   }
+  
