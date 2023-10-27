@@ -1,7 +1,6 @@
 .card {
-  height: 90%;
-  width: 300px;
-  margin-bottom: 30px;
+  height: 400px;
+  width: 300px; 
   border-radius: 10%;
 
   /*&:hover {
@@ -24,9 +23,9 @@
 
   .imgCardProfes {
     border-radius: 15%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
-    padding: 15px;
+    padding: 5px;
     
 
     /*@keyframes flotar {
@@ -79,12 +78,46 @@
 
   @media screen and (max-width: 520px) {
     .imgCardUniversidades {
-      object-fit: cover;
-      height: 150px;
-      width: 70%;
+      height: 200px;
+      width: 300px;
+      justify-content: center;    
+
 
     }
 
   }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      height: 340px;
+      width: 240px; 
+      border-radius: 10%;
+      
+
+      .imgCardProfes {        
+        height: 200px;
+        object-fit: cover;  
+        
+    }
+
+  }
+  }
+
+  @media screen and (max-width: 530px) {
+    .card {
+      height: 400px;
+      width: 300px; 
+      border-radius: 10%;
+      
+
+      .imgCardProfes {        
+        height: 300px;
+        object-fit: cover;  
+        
+    }
+
+  }
+  }
+
 
   

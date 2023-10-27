@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>NeuroFitnes | cursos preparados para el ingreso universitario</title>
 </head>
 
@@ -57,8 +58,6 @@
                             <li class="nav-item">
                                 <a class="nav-link inicio" aria-current="page" href="./alumnos.html">Alumnos</a>
                             </li>
-
-
                         </ul>
 
                     </div>
@@ -72,13 +71,14 @@
 
     <main class="altura">
 
-        <section class="container  ">
+        <section class="container">
 
-            <div class="row text-center align-items-center pt-5 pb-4 ">
+            <div class="text-center mb-5 mt-5">
                 <h1 class="fs-2 fw-semibold">Nuestros cursos</h1>
             </div>
 
-            <div class="row bordeCursos ">
+            <div class="row bordeCursos bgCursos" data-aos="fade-right">
+
                 <div class="col-xl-3 col-lg-12 d-flex justify-content-center ">
 
                     <img src="../multimedis/clases-personalizadas.jpg" alt="tareas-diarias"
@@ -94,15 +94,16 @@
                         sistema legal. </p>
                 </div>
             </div>
-            
 
-            <div class="row h-50">
-                
+
+            <div class="row h-50 " data-aos="fade-left" data-aos-offset="400">
+
 
                 <div class="col-xl-9 col-lg-12 d-flex flex-column align-items-start ">
 
                     <!-- <h3 class="text-dark mt-4">Medicina UCC</h3> -->
-                    <a href="https://fcm.unc.edu.ar/carrera-de-medicina/" target="_blank" class="tituloCursos mt-4">Medicina UNC</a>
+                    <a href="https://fcm.unc.edu.ar/carrera-de-medicina/" target="_blank"
+                        class="tituloCursos mt-4">Medicina UNC</a>
 
                     <p class=" mt-4 mb-4 textochico">La preparación para la abogacía es un proceso riguroso que
                         requiere una sólida base educativa, habilidades legales y una comprensión profunda del
@@ -117,7 +118,7 @@
 
             </div>
 
-            <div class="row bordeCursos ">
+            <div class="row bordeCursos bgCursos" data-aos="fade-right" data-aos-offset="400">
                 <div class="col-xl-3 col-lg-12 d-flex justify-content-center ">
 
                     <img src="../multimedis/clases-personalizadas.jpg" alt="tareas-diarias"
@@ -135,8 +136,8 @@
             </div>
 
 
-            <div class="row h-50">
-                
+            <div class="row h-50" data-aos="fade-left" data-aos-offset="400">
+
 
                 <div class="col-xl-8 col-lg-12 d-flex flex-column align-items-start ">
 
@@ -156,7 +157,7 @@
             </div>
 
 
-            <div class="row bordeCursos ">
+            <div class="row bordeCursos bgCursos" data-aos="fade-right" data-aos-offset="400">
                 <div class="col-xl-3 col-lg-12 d-flex justify-content-center ">
 
                     <img src="../multimedis/clases-personalizadas.jpg" alt="tareas-diarias"
@@ -173,8 +174,8 @@
                 </div>
             </div>
 
-            <div class="row h-50">
-                
+            <div class="row h-50" data-aos="fade-left" data-aos-offset="400">
+
 
                 <div class="col-xl-8 col-lg-12 d-flex flex-column align-items-start ">
 
@@ -193,7 +194,7 @@
 
             </div>
 
-            <div class="row bordeCursos ">
+            <div class="row bordeCursos mb-4 bgCursos" data-aos="fade-right" data-aos-offset="400">
                 <div class="col-xl-3 col-lg-12 d-flex justify-content-center ">
 
                     <img src="../multimedis/clases-personalizadas.jpg" alt="tareas-diarias"
@@ -215,28 +216,28 @@
 
 
 
-        <section class="container  ">
+        <section class="container-fluid bordeCursos mt-5 ">
 
-            <div class="row ">
+            <div class="row ms-5 me-5">
 
-                <div class="text-center mt-5">
-                    <h2>Contactate con nosotros y asegurá tu futuro</h2>
+                <div class="mt-4">
+                    <h2 class="col-xl-6 col-lg-12 d-flex align-items-center ">Contactate con nosotros</h2>
+                    <h3>y asegurá tu futuro</h3>
                 </div>
 
-                <div class="row">
+                <div class="col-xl-6 col-lg-12">
 
                     <p class="textochico mt-5">Inscribirte en un instituto de preparación universitaria es una
-                        inversión
-                        en
-                        tu futuro. Te brinda
-                        las herramientas y el apoyo que necesitas para prosperar en la educación superior y más
-                        allá. No
-                        dejes pasar esta oportunidad de sentar las bases sólidas para una carrera exitosa.
-                        ¡Inscríbete
-                        hoy y comienza tu viaje hacia el éxito académico y profesional!</p>
+                        inversión en tu futuro. Te brinda las herramientas y el apoyo que necesitas para prosperar
+                        en la educación superior y más allá. </p>
 
+                    <p class="textochico mt-5">
+                        No dejes pasar esta oportunidad de sentar las bases sólidas para una carrera exitosa.
+                        ¡Inscríbete hoy y comienza tu viaje hacia el éxito académico y profesional!</p>
+                </div>
 
-                    <form class="row g-3 ms-auto me-auto mb-5 p-4 fs-5 formulario">
+                <div class="col-xl-6 col-lg-12 ms-auto">
+                    <form class="row g-3 ms-auto me-auto mb-5 p-3 fs-5 formulario">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label text-white">Email</label>
                             <input type="email" class="form-control" id="inputEmail4" placeholder="ingrese su email">
@@ -271,7 +272,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                 <label class="form-check-label text-white" for="gridCheck">
-                                    Check me out
+                                    No soy un robot
                                 </label>
                             </div>
                         </div>
@@ -368,7 +369,12 @@
         </div>
     </footer>
 
+
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

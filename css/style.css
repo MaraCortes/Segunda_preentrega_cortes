@@ -12,7 +12,7 @@
 }
 
 main {
-  background-color: rgb(238, 238, 227);
+  background-color: white;
 }
 
 .ancla {
@@ -156,9 +156,8 @@ main {
 }
 
 .card {
-  height: 90%;
+  height: 400px;
   width: 300px;
-  margin-bottom: 30px;
   border-radius: 10%;
   /*&:hover {
     height: 90%;
@@ -177,10 +176,10 @@ main {
 }
 .card .imgCardProfes {
   border-radius: 15%;
-  height: 250px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 15px;
+  padding: 5px;
   /*@keyframes flotar {
     0% {
       transform: translateY(0);
@@ -216,10 +215,33 @@ main {
 }
 @media screen and (max-width: 520px) {
   .imgCardUniversidades {
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    height: 340px;
+    width: 240px;
+    border-radius: 10%;
+  }
+  .card .imgCardProfes {
+    height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
-    height: 150px;
-    width: 70%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .card {
+    height: 400px;
+    width: 300px;
+    border-radius: 10%;
+  }
+  .card .imgCardProfes {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .alturaContenedorForm {
@@ -238,6 +260,10 @@ main {
   padding: 5px;
 }
 
+.bgCursos {
+  background-color: rgb(203, 213, 213);
+}
+
 /*.tituloCursos{
   font-family: $fuente-letrasFooter;
   color: $color-texto;
@@ -252,7 +278,7 @@ main {
 }
 
 .formulario {
-  background-color: rgb(33, 29, 29);
+  background-color: #211d1d;
 }
 
 .linkColegios {
