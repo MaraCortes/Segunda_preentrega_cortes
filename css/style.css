@@ -228,22 +228,16 @@ main {
   }
 }
 
-.cursos {
-  /*@media screen and (max-width: 1200px) {
-    .queriesCursos {
-      flex-direction: column-reverse;
-
-    }
-  }*/
-}
-.cursos .bordeCursos {
+.bordeCursos {
   border-bottom: black solid 1px;
   border-top: black solid 1px;
 }
-.cursos .bgCursos {
+
+.bgCursos {
   background-color: rgb(203, 213, 213);
 }
-.cursos .tamañoImagenCursos {
+
+.tamañoImagenCursos {
   width: 160px;
   height: 160px;
   border-radius: 50%;
