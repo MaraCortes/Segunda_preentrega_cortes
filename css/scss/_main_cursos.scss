@@ -1,5 +1,4 @@
-.cursos {
-  background-color: rgb(230, 241, 241);
+.cursos {  
 
   .bordeCursos {
     border-bottom: black solid 1px;
@@ -19,6 +18,12 @@
     object-fit: cover;
   }
 
+  /*@media screen and (max-width: 1200px) {
+    .queriesCursos {
+      flex-direction: column-reverse;
+
+    }
+  }*/
 }
 
 .formulario {
