@@ -1,38 +1,26 @@
+.cursos {
+  background-color: rgb(230, 241, 241);
 
-  .cursos{
-    background-color: rgb(230, 241, 241);
+  .bordeCursos {
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
 
-    .bordeCursos{
-      border-bottom: black solid 1px;
-      border-top: black solid 1px;     
-      
-    }
-  
-    .bgCursos{
-      background-color: rgb(203, 213, 213);       
-      
-    }   
-  
-    .tamañoImagenCursos{
-      width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    
-  } 
-
-  .formulario{
-    background-color: #211d1d;    
   }
-  
 
-  
-  
+  .bgCursos {
+    background-color: rgb(203, 213, 213);
 
-  
+  }
 
+  .tamañoImagenCursos {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
+}
 
-
-
+.formulario {
+  background-color: #211d1d;
+}

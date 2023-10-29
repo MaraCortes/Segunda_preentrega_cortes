@@ -79,9 +79,19 @@
         height: 60px;
 
       }
-    }    
+    }
 
   }
-  
-}
 
+  .navbar-toggler:focus+.collapse .nav-link {
+    color: rgb(8, 213, 240);
+    font-weight: 200;
+  }
+
+
+  .listaHeader {
+    line-height: 0.5;
+
+  }
+
+}
