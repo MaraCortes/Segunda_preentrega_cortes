@@ -1,22 +1,26 @@
-.linkColegios {
+.carousel-caption {
+
+  .linkColegios {
     text-decoration: none;
     color: $color-claro;
-    font-family: cursive;   
-  
-  }
+    font-family: cursive;
 
+  }
+}
+
+.cards {
   .tamañoImagenCards {
     width: 100%;
     height: 300px;
     border-radius: 20px;
     object-fit: cover;
-       
+
   }
 
   @media screen and (max-width: 1200px) {
     .queriesServicios {
       flex-direction: column-reverse;
-       }
-    
+
+    }
   }
-  
+}

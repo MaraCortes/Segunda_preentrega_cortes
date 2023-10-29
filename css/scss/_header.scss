@@ -38,37 +38,50 @@
     background-size: cover;
     background-position: center;
   }
-  
-  }
-
 
   .nombreInst {
-    font-family: cursive;
-    font-size: 1.5rem;
-    color: $color-claro;
 
-  }
+    .nombreInst_a {
+      font-family: cursive;
+      font-size: 1.5rem;
+      color: $color-claro;
 
-  .bordeLogo {
-    width: 80px;
-    height: 80px;
-    border-radius: 80%;
-    animation-name: logo;
-    animation-duration: 2s;    
-    animation-timing-function: ease-in-out;    
-    animation-delay: 1s;
-
-    @keyframes logo {
-      0% {
-        transform: translateX(0);
-      }
-
-      50% {
-        transform: translateX(100%);
-      }
-
-      100% {
-        transform: translateX(0);
+      @media screen and (max-width: 1200px) {
+        font-size: 1.3rem;
       }
     }
+
+    .bordeLogo {
+      width: 80px;
+      height: 80px;
+      border-radius: 80%;
+      animation-name: logo;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 1s;
+
+      @keyframes logo {
+        0% {
+          transform: translateX(0);
+        }
+
+        50% {
+          transform: translateX(100%);
+        }
+
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      @media screen and (max-width: 1200px) {
+        width: 60px;
+        height: 60px;
+
+      }
+    }    
+
   }
+  
+}
+

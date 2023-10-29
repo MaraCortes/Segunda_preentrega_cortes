@@ -12,7 +12,7 @@
 }
 
 main {
-  background-color: white;
+  background-color: rgb(251, 247, 247);
 }
 
 .ancla {
@@ -21,33 +21,22 @@ main {
   color: rgb(247, 247, 242);
 }
 
-.boton-inscripcion-a {
+.container-inscripcion {
+  background-color: rgb(238, 238, 227);
+  height: 25vh;
+}
+.container-inscripcion .boton-inscripcion-a {
   text-decoration: none;
   color: rgb(10, 10, 15);
   font-family: cursive;
   font-size: 1.3rem;
 }
-
-.container-inscripcion {
-  background-color: rgb(238, 238, 227);
-  height: 25vh;
-}
-
-.boton-inscripcion {
-  border: rgba(72, 61, 90, 0.827) solid 1px;
-  border-radius: 10px;
-}
-
-@media screen and (max-width: 576px) {
-  .boton-inscripcion {
-    border: none;
+@media screen and (max-width: 520px) {
+  .container-inscripcion .boton-inscripcion-a {
+    font-size: 1.1rem;
   }
 }
-@media screen and (max-width: 992px) {
-  .boton-inscripcion-a {
-    font-size: 1.3rem;
-  }
-}
+
 * {
   padding: 0;
   margin: 0;
@@ -89,14 +78,17 @@ main {
   background-size: cover;
   background-position: center;
 }
-
-.nombreInst {
+.inicio .nombreInst .nombreInst_a {
   font-family: cursive;
   font-size: 1.5rem;
   color: rgb(247, 247, 242);
 }
-
-.bordeLogo {
+@media screen and (max-width: 1200px) {
+  .inicio .nombreInst .nombreInst_a {
+    font-size: 1.3rem;
+  }
+}
+.inicio .nombreInst .bordeLogo {
   width: 80px;
   height: 80px;
   border-radius: 80%;
@@ -116,6 +108,12 @@ main {
     transform: translateX(0);
   }
 }
+@media screen and (max-width: 1200px) {
+  .inicio .nombreInst .bordeLogo {
+    width: 60px;
+    height: 60px;
+  }
+}
 
 .carousel {
   width: 100%;
@@ -132,22 +130,20 @@ main {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.h3carruselIndex {
+.carousel .carousel-item .h3carruselIndex {
   font-family: cursive;
   font-size: 2rem;
   font-weight: 2rem;
   color: rgb(247, 247, 242);
 }
-
-.textoCarrusel {
+.carousel .carousel-item .textoCarrusel {
   font-family: cursive;
   font-size: 1.5rem;
   font-weight: 2rem;
   color: rgb(247, 247, 242);
 }
 
-.tamañoImagenNosotros {
+.nosotros .tamañoImagenNosotros {
   border-radius: 20px;
   width: 90%;
   height: 350px;
@@ -159,77 +155,12 @@ main {
   height: 400px;
   width: 300px;
   border-radius: 10%;
-  /*&:hover {
-    height: 90%;
-    width: 300px;
-    margin-bottom: 30px;
-    border-radius: 50px;
-    animation-name: flotar;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-
-  }*/
-}
-.card .card-text {
-  padding: 20px;
-  padding-top: 0;
-}
-.card .imgCardProfes {
-  border-radius: 15%;
-  height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding: 5px;
-  /*@keyframes flotar {
-    0% {
-      transform: translateY(0);
-    }
-
-    100% {
-      transform: translateY(-30px);
-    }
-  }*/
-}
-
-.imgCardUniversidades {
-  margin: 5px;
-  height: 200px;
-  width: 300px;
-  border-radius: 20px;
-}
-.imgCardUniversidades:hover {
-  margin: 5px;
-  height: 200px;
-  width: 300px;
-  border-radius: 20px;
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
-}
-
-@media screen and (max-width: 1200px) {
-  .imgCardUniversidades {
-    height: 150px;
-    width: 250px;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 520px) {
-  .imgCardUniversidades {
-    height: 200px;
-    width: 300px;
-    justify-content: center;
-  }
 }
 @media screen and (max-width: 768px) {
   .card {
     height: 340px;
     width: 240px;
     border-radius: 10%;
-  }
-  .card .imgCardProfes {
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 }
 @media screen and (max-width: 530px) {
@@ -238,17 +169,69 @@ main {
     width: 300px;
     border-radius: 10%;
   }
+}
+.card .imgCardProfes {
+  border-radius: 15%;
+  height: 300px;
+  padding: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 768px) {
   .card .imgCardProfes {
-    height: 300px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 200px;
   }
 }
-.alturaContenedorForm {
-  height: 100vh;
+@media screen and (max-width: 530px) {
+  .card .imgCardProfes {
+    height: 300px;
+  }
+}
+.card .card-text {
+  padding: 20px;
+  padding-top: 0;
 }
 
-.tamañoImagenCursos {
+.universidades .imgCardUniversidades {
+  margin: 5px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+}
+.universidades .imgCardUniversidades:hover {
+  margin: 5px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+@media screen and (max-width: 1200px) {
+  .universidades .imgCardUniversidades {
+    height: 150px;
+    width: 250px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .universidades .imgCardUniversidades {
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+  }
+}
+
+.cursos {
+  background-color: rgb(230, 241, 241);
+}
+.cursos .bordeCursos {
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+}
+.cursos .bgCursos {
+  background-color: rgb(203, 213, 213);
+}
+.cursos .tamañoImagenCursos {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -256,113 +239,96 @@ main {
      object-fit: cover;
 }
 
-.rowCursos {
-  padding: 5px;
-}
-
-.bgCursos {
-  background-color: rgb(203, 213, 213);
-}
-
-/*.tituloCursos{
-  font-family: $fuente-letrasFooter;
-  color: $color-texto;
-  text-decoration: none;
-  font-size: 1.5rem ;
-  font-weight: bold;
-
-}*/
-.bordeCursos {
-  border-bottom: black solid 1px;
-  border-top: black solid 1px;
-}
-
 .formulario {
   background-color: #211d1d;
 }
 
-.linkColegios {
+.carousel-caption .linkColegios {
   text-decoration: none;
   color: rgb(247, 247, 242);
   font-family: cursive;
 }
 
-.tamañoImagenCards {
+.cards .tamañoImagenCards {
   width: 100%;
   height: 300px;
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 @media screen and (max-width: 1200px) {
-  .queriesServicios {
+  .cards .queriesServicios {
     flex-direction: column-reverse;
   }
 }
+
 .footer {
   height: auto;
   background-color: black;
 }
-.footer .bordeLogoFooter {
+.footer .rowFooter {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .rowFooter .navbar .bordeLogoFooter {
   width: 80px;
   height: 80px;
   border-radius: 80%;
 }
-.footer .footerLista {
+.footer .rowFooter .footerLista {
   list-style: none;
 }
-.footer .footerLista .footerAncla {
+@media screen and (max-width: 1200px) {
+  .footer .rowFooter .footerLista {
+    display: none;
+  }
+}
+.footer .rowFooter .footerLista .footerAncla {
   text-decoration: none;
 }
-.footer .footer_redes_sociales {
+.footer .rowFooter .footer_redes_sociales {
   text-align: center;
 }
-.footer .footer_redes_sociales .footer_h2 {
+@media screen and (max-width: 1200px) {
+  .footer .rowFooter .footer_redes_sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+.footer .rowFooter .footer_redes_sociales .footer_h2 {
   font-size: 1.2rem;
   text-align: center;
   color: aliceblue;
 }
-.footer .footer_redes_sociales .footer_redes_sociales_p {
-  font-size: 1.2rem;
-  font-family: cursive;
-  color: aliceblue;
-  text-align: center;
+@media screen and (max-width: 1200px) {
+  .footer .rowFooter .footer_redes_sociales .footer_h2 {
+    display: none;
+  }
 }
-.footer .footer_redes_sociales .footer_img {
+.footer .rowFooter .footer_redes_sociales .footer_img {
   width: 45px;
   height: 45px;
   border-radius: 20%;
 }
-.footer .footer_redes_sociales .footer_img:hover {
+.footer .rowFooter .footer_redes_sociales .footer_img:hover {
   width: 50px;
   height: 50px;
   border-radius: 20%;
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out;
 }
-
-.rowFooter {
-  font-family: Arial, Helvetica, sans-serif;
+.footer .rowFooter .footer_redes_sociales .footer_redes_sociales_p {
+  font-size: 1.2rem;
+  font-family: cursive;
+  color: aliceblue;
+  text-align: center;
 }
-
 @media screen and (max-width: 1200px) {
-  .footer_redes_sociales {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .footer_redes_sociales .footer_h2 {
+  .footer .rowFooter .queriesLogoFooter {
     display: none;
   }
-  .queriesLogoFooter {
-    display: none;
-  }
-  .footerLista {
-    display: none;
-  }
-  .queriesMapaFooter {
+  .footer .rowFooter .queriesMapaFooter {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */

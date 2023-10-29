@@ -1,123 +1,77 @@
 .card {
   height: 400px;
-  width: 300px; 
+  width: 300px;
   border-radius: 10%;
 
-  /*&:hover {
-    height: 90%;
+  @media screen and (max-width: 768px) {
+    height: 340px;
+    width: 240px;
+    border-radius: 10%;
+  }
+
+  @media screen and (max-width: 530px) {
+    height: 400px;
     width: 300px;
-    margin-bottom: 30px;
-    border-radius: 50px;
-    animation-name: flotar;
-    animation-duration: 1s;
-    animation-timing-function: ease;
+    border-radius: 10%;
 
-  }*/
-
-  .card-text{
-    padding:20px;
-    padding-top: 0;
-  } 
-
+  }
 
 
   .imgCardProfes {
     border-radius: 15%;
     height: 300px;
-    object-fit: cover;
     padding: 5px;
-    
+    object-fit: cover;
 
-    /*@keyframes flotar {
-      0% {
-        transform: translateY(0);
-      }
+    @media screen and (max-width: 768px) {
+      height: 200px;
 
-      100% {
-        transform: translateY(-30px);
-      }
-    }*/
+    }
+
+    @media screen and (max-width: 530px) {
+      height: 300px;
+
+    }
   }
 
+  .card-text {
+    padding: 20px;
+    padding-top: 0;
+  }
 }
 
 
-
-
-.imgCardUniversidades {
-  margin: 5px;
-  height: 200px;
-  width: 300px;
-  border-radius: 20px;
-
-  &:hover {
+.universidades {
+  .imgCardUniversidades {
     margin: 5px;
     height: 200px;
     width: 300px;
     border-radius: 20px;
-    transform: scale(1.2);
-    transition: transform 0.5s ease-in-out;
 
-  }
+    &:hover {
+      margin: 5px;
+      height: 200px;
+      width: 300px;
+      border-radius: 20px;
+      transform: scale(1.2);
+      transition: transform 0.5s ease-in-out;
 
-}
+    }
 
-
-
-
-
-  @media screen and (max-width: 1200px) {
-    .imgCardUniversidades {
+    @media screen and (max-width: 1200px) {
       height: 150px;
       width: 250px;
       justify-content: center;
 
     }
 
-  }
-
-  @media screen and (max-width: 520px) {
-    .imgCardUniversidades {
+    @media screen and (max-width: 520px) {
       height: 200px;
       width: 300px;
-      justify-content: center;    
-
-
+      justify-content: center;
     }
 
   }
 
-  @media screen and (max-width: 768px) {
-    .card {
-      height: 340px;
-      width: 240px; 
-      border-radius: 10%;
-      
+}
 
-      .imgCardProfes {        
-        height: 200px;
-        object-fit: cover;  
-        
-    }
-
-  }
-  }
-
-  @media screen and (max-width: 530px) {
-    .card {
-      height: 400px;
-      width: 300px; 
-      border-radius: 10%;
-      
-
-      .imgCardProfes {        
-        height: 300px;
-        object-fit: cover;  
-        
-    }
-
-  }
-  }
-
-
-  
