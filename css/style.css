@@ -37,6 +37,14 @@ main {
   }
 }
 
+.imgError404 {
+  width: 50%;
+  height: 550px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -77,6 +85,10 @@ main {
   background-image: url(../multimedis/fondo-alumnos.jpg);
   background-size: cover;
   background-position: center;
+}
+.inicio .header_404 {
+  height: 20vh;
+  background-color: black;
 }
 .inicio .nombreInst .nombreInst_a {
   font-family: cursive;
