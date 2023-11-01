@@ -31,7 +31,7 @@ main {
     color: $color-texto;
     font-family: cursive;
     font-size: 1.3rem;
-
+    
     @media screen and (max-width: 520px) {
       font-size: 1.1rem;
     }

@@ -1,8 +1,23 @@
 .carousel-caption {
 
+  .h3CarrouselColegios {
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+  }
+
+  .textoCarruselColegios {
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+  }
+
   .linkColegios {
-    text-decoration: none;
-    color: $color-claro;
+    font-size: 1.5rem;
+    font-weight: 2rem;    
+    color: black;
     font-family: cursive;
 
   }
