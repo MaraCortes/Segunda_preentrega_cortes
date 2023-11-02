@@ -1,3 +1,8 @@
+ 
+ .overFlowHidden{
+  overflow: hidden;
+ }
+ 
  .bordeCursos {
    border-bottom: black solid 1px;
    border-top: black solid 1px;
@@ -9,31 +14,28 @@
 
  }
 
+ @media screen and (max-width: 1200px) {
+   .reverseCursos {
+     flex-direction: column-reverse;
+   }
+ }
+
+ @media screen and (max-width: 1200px) {
+   .queriesTextoCursos {
+     display: none;
+   }
+
+ }
+
  .tamañoImagenCursos {
    width: 160px;
    height: 160px;
    border-radius: 50%;
    object-fit: cover;
- } 
+ }
 
 
  .formulario {
    background-color: #211d1d;
  }
 
- @media screen and (max-width: 1200px){
-  .queriesTextoCursos{
-    display: none;
-  }
-
- }
-
- @media screen and (max-width: 1200px){
-  .reverseCursos{
-    flex-direction: column-reverse;
-  }
- }
-
- 
-
- 

@@ -32,10 +32,21 @@
 
   }
 
+  
+
   @media screen and (max-width: 1200px) {
     .queriesServicios {
       flex-direction: column-reverse;
 
     }
+  }
+}
+
+.carousel-item{
+  .tamañoImgColegios{
+    width: 100%;
+      height: 100%;
+      object-fit: cover;
+
   }
 }
