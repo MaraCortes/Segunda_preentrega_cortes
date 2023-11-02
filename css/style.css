@@ -261,6 +261,16 @@ main {
   background-color: #211d1d;
 }
 
+@media screen and (max-width: 1200px) {
+  .queriesTextoCursos {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .reverseCursos {
+    flex-direction: column-reverse;
+  }
+}
 .carousel-caption .h3CarrouselColegios {
   font-family: cursive;
   font-size: 2rem;
@@ -275,7 +285,7 @@ main {
 }
 .carousel-caption .linkColegios {
   font-size: 1.5rem;
-  font-weight: 2rem;
+  font-weight: 600;
   color: black;
   font-family: cursive;
 }

@@ -21,4 +21,19 @@
    background-color: #211d1d;
  }
 
+ @media screen and (max-width: 1200px){
+  .queriesTextoCursos{
+    display: none;
+  }
+
+ }
+
+ @media screen and (max-width: 1200px){
+  .reverseCursos{
+    flex-direction: column-reverse;
+  }
+ }
+
+ 
+
  
