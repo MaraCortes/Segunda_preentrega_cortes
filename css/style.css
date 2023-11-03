@@ -166,6 +166,7 @@ main {
   height: 400px;
   width: 300px;
   border-radius: 10%;
+  border: 2px solid rgb(183, 171, 171);
 }
 @media screen and (max-width: 768px) {
   .card {
