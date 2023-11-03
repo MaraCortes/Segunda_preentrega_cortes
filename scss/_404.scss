@@ -1,19 +1,20 @@
-
-.contenedorError404{
-    height: 100vh;
-}
-
-.header_404{
+.header_404 {
     height: 60vh;
     background-color: black;
-    
-
 }
 
-.imgError404 {
-    width: 50%;
-    height: 400px;
-    border-radius: 20px;
-    object-fit: cover;
+.contenedorError404 {
+    height: 100vh;
 
+    .imgError404 {
+        width: 50%;
+        height: 400px;
+        border-radius: 20px;
+        object-fit: cover;
+
+        @media screen and (max-width: 1200px) {
+            width: 90%;
+
+        }
+    }
 }
