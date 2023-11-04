@@ -236,35 +236,31 @@ main {
 .overFlowHidden {
   overflow: hidden;
 }
-
-.bordeCursos {
+.overFlowHidden .bordeCursos {
   border-bottom: black solid 1px;
   border-top: black solid 1px;
 }
-
-.bgCursos {
+.overFlowHidden .bgCursos {
   background-color: rgb(203, 213, 213);
 }
-
 @media screen and (max-width: 1200px) {
-  .reverseCursos {
+  .overFlowHidden .reverseCursos {
     flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 1200px) {
-  .queriesTextoCursos {
+  .overFlowHidden .queriesTextoCursos {
     display: none;
   }
 }
-.tamañoImagenCursos {
+.overFlowHidden .tamañoImagenCursos {
   width: 160px;
   height: 160px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.formulario {
+.overFlowHidden .formulario {
   background-color: #211d1d;
 }
 
