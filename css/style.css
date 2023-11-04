@@ -12,7 +12,7 @@
 }
 
 main {
-  background-color: rgb(239, 249, 246);
+  background-color: rgb(249, 248, 242);
 }
 
 .ancla {
@@ -119,11 +119,11 @@ main {
   }
 }
 .inicio .navbar-toggler:focus + .collapse .nav-link {
-  color: rgb(8, 213, 240);
+  color: rgb(249, 255, 255);
   font-weight: 200;
 }
 .inicio .listaHeader {
-  line-height: 0.5;
+  line-height: 1.2;
 }
 
 .carousel {
@@ -307,6 +307,11 @@ main {
      object-fit: cover;
 }
 
+@media screen and (max-width: 1200px) {
+  .queriesAlumnnos {
+    flex-direction: column-reverse;
+  }
+}
 .footer {
   height: auto;
   background-color: black;
@@ -378,8 +383,8 @@ main {
   }
 }
 
-.header_404 {
-  height: 60vh;
+.inicio .header_404 {
+  height: 40vh;
   background-color: black;
 }
 
