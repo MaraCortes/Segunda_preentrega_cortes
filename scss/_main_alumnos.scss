@@ -1,12 +1,14 @@
+.container {
 
-@media screen and (max-width: 1200px) {
+  .bordeAlumnos {
+    border-bottom: black solid 1px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 1200px) {
     .queriesAlumnnos {
       flex-direction: column-reverse;
 
     }
   }
-
-
-
-
-
+}

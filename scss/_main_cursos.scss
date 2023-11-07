@@ -1,40 +1,40 @@
- .overFlowHidden {
-   overflow: hidden;
+.overFlowHidden {
+  overflow: hidden;
 
 
-   .bordeCursos {
-     border-bottom: black solid 1px;
-     border-top: black solid 1px;
+  .bordeCursos {
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
 
-   }
+  }
 
-   .bgCursos {
-     background-color: rgb(203, 213, 213);
+  .bgCursos {
+    background-color: rgb(203, 213, 213);
 
-   }
+  }
 
-   @media screen and (max-width: 1200px) {
-     .reverseCursos {
-       flex-direction: column-reverse;
-     }
-   }
+  @media screen and (max-width: 1200px) {
+    .reverseCursos {
+      flex-direction: column-reverse;
+    }
+  }
 
-   @media screen and (max-width: 1200px) {
-     .queriesTextoCursos {
-       display: none;
-     }
+  @media screen and (max-width: 1200px) {
+    .queriesTextoCursos {
+      display: none;
+    }
 
-   }
+  }
 
-   .tamañoImagenCursos {
-     width: 160px;
-     height: 160px;
-     border-radius: 50%;
-     object-fit: cover;
-   }
+  .tamañoImagenCursos {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
 
-   .formulario {
-     background-color: #211d1d;
-   }
- }
+  .formulario {
+    background-color: #211d1d;
+  }
+}

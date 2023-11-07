@@ -296,11 +296,16 @@ main {
   }
 }
 
+.container .bordeAlumnos {
+  border-bottom: black solid 1px;
+  margin-top: 10px;
+}
 @media screen and (max-width: 1200px) {
-  .queriesAlumnnos {
+  .container .queriesAlumnnos {
     flex-direction: column-reverse;
   }
 }
+
 .footer {
   height: auto;
   background-color: black;
