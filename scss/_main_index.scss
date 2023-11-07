@@ -13,16 +13,19 @@
       object-fit: cover;
     }
 
-    .h3carruselIndex {
-      font-family: cursive;
-      font-size: 2rem;
-      font-weight: 2rem;
-      color: $color-claro;
-    }
+    .carousel-caption {
 
-    .textoCarrusel {
-      @include textos (1.5rem);
+      .h3carruselIndex {
+        font-family: cursive;
+        font-size: 2rem;
+        font-weight: 2rem;
+        color: $color-claro;
+      }
 
+      .textoCarrusel {
+        @include textos (1.5rem);
+
+      }
     }
   }
 }
