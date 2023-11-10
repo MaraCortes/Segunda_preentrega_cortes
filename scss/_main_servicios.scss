@@ -6,13 +6,15 @@
 
   }
 
-  .carousel-caption {
+  .carousel-caption {    
 
     .h3CarrouselColegios {
       font-family: cursive;
       font-size: 2rem;
       font-weight: 600;
-      color: rgb(15, 14, 14);
+      color: $color-claro;
+      
+
     }
 
     .linkColegios {
@@ -43,3 +45,4 @@
     }
   }
 }
+
