@@ -392,6 +392,9 @@ main {
   background-color: black;
 }
 
+.contenedorError404 {
+  height: 100vh;
+}
 .contenedorError404 .imgError404 {
   width: 50%;
   height: auto;
