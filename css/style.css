@@ -396,7 +396,7 @@ main {
 }
 
 .contenedorError404 {
-  height: 100vh;
+  height: 100%;
 }
 .contenedorError404 .imgError404 {
   width: 50%;
@@ -404,9 +404,4 @@ main {
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
-}
-@media screen and (max-width: 1200px) {
-  .contenedorError404 .imgError404 {
-    width: 90%;
-  }
 }/*# sourceMappingURL=style.css.map */
